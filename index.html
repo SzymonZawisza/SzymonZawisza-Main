@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SzymonZawisza Main</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        html, body {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        font-family: Arial, sans-serif;
+        }
+
+        header {
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .grid {
+        height: calc(100vh - 60px); /* full height minus header */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        }
+
+        button {
+        font-size: 2rem;
+        width: 100%;
+        height: 100%;
+        background-color: #505050;
+        color: white;
+        cursor: pointer;
+        }
+
+        button:hover {
+        background-color: #555555;
+        }
+
+    </style>
+    </head>
+    <body>
+        <header>Szymon Zawisza SLO Żary - Projekty</header>
+        <div class="grid">
+            <button onclick="window.open('https://szymonzawisza.github.io/New-Tech-In-Language/', '_blank')">Referat Angielski - Wykorzystanie nowoczesnych technologii i rozwiązań w nauce języka angielskiego</button>
+            <button onclick="window.open('https://szymonzawisza.github.io/EnglishGG/', '_blank')">Strona Internetowa Angielski - English Grammar Guide</button>
+            <button onclick="window.open('https://szymonzawisza.github.io/Games-Aggression-and-Addiction/', '_blank')">Referat Biologia - Agresja i uzależnienie w grach wideo, czyli najczęstsze błędy poznawcze</button>
+            <button onclick="window.open('https://szymonzawisza.github.io/Fermentacja-Alkoholowa/', '_blank')">Doświadczenie Biologia - Fermentacja Alkoholowa</button>
+        </div>
+    </body>
+    </html>
